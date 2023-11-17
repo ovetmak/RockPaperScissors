@@ -58,4 +58,6 @@ function game() {
   )
 }
 
-game()
+const newGameBtn = document.querySelector('#button-new-game')
+newGameBtn.addEventListener('click', game)
+// game()
